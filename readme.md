@@ -33,9 +33,9 @@
 
 🔥 [Cobalt2 for Atom](https://github.com/wesbos/cobalt2-atom)
 
-🔥 [Cobalt 2 for ZSH](https://github.com/wesbosCobalt2-iterm/)
+🔥 [Cobalt 2 for ZSH](https://github.com/wesbos/Cobalt2-iterm/)
 
-🔥 [Cobalt 2 for iTerm](https://github.com/wesbosCobalt2-iterm/)
+🔥 [Cobalt 2 for iTerm](https://github.com/wesbos/Cobalt2-iterm/)
 
 🔥 [Cobalt 2 for Alfred](https://github.com/wesbos/Cobalt2-Alfred-Theme)
 
