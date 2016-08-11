@@ -18,6 +18,13 @@
 ### Q: What font is that? I Love It!
 **A:** Operator Mono. I wrote a bit of info here → <http://wesbos.com/uses>
 
+### Q: How do I get Powerline working with a non-patched font?
+**A:** Use CSS to fall back to a different font when the character isn't supported:
+
+```
+fontFamily: '"Operator Mono", "Inconsolata for Powerline", monospace'
+```
+
 ### Q: I HATE THAT FONT SO MUCH, I HATE YOU AND I WANT YOU TO KNOW IT
 **A:** k 😘
 
