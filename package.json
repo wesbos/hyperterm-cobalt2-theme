@@ -1,6 +1,6 @@
 {
   "name": "hyperterm-cobalt2-theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Cobalt2 Theme for Hyperterm",
   "main": "index.js",
   "scripts": {

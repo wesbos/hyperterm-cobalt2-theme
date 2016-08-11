@@ -1,5 +1,7 @@
 # Cobalt2 for Hyperterm
 
+![](http://wes.io/h1eC/content)
+
 ## Installing
 
 1. Open your `~/.hyperterm.js` config file with something like `subl ~/.hyperterm.js` or `vim ~/.hyperterm.js`.
@@ -22,6 +24,9 @@
 ### Q: How did you get the cool prompt?
 **A:** This isn't part of iTerm or Hyperterm, it has to do with the shell that you are using. I'm using ZSH along with [Cobalt 2 for ZSH](https://github.com/wesbosCobalt2-iterm/). I've got a whole free video series on this if you are interested:  <http://CommandLinePowerUser.com>
 
+### Q: Can I make edits?
+**A:** Yes please! Still working on this. I might not accept your edits, but I probably will.
+
 ## You might also like
 
 [Cobalt2 for Sublime Text](https://github.com/wesbos/Cobalt2)
@@ -29,8 +34,4 @@
 [Cobalt 2 for ZSH](https://github.com/wesbosCobalt2-iterm/)
 [Cobalt 2 for iTerm](https://github.com/wesbosCobalt2-iterm/)
 [Cobalt 2 for Alfred](https://github.com/wesbos/Cobalt2-Alfred-Theme)
-
-## Thanks
-
-* [martinansty](https://twitter.com/martinansty) for initial dev
-
+[Cobalt 2 for Slack](https://github.com/wesbos/Cobalt2-slack)
