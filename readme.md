@@ -22,7 +22,7 @@
 **A:** k 😘
 
 ### Q: How did you get the cool prompt?
-**A:** This isn't part of iTerm or Hyperterm, it has to do with the shell that you are using. I'm using ZSH along with [Cobalt 2 for ZSH](https://github.com/wesbosCobalt2-iterm/). I've got a whole free video series on this if you are interested:  <http://CommandLinePowerUser.com>
+**A:** This isn't part of iTerm or Hyperterm, it has to do with the shell that you are using. I'm using ZSH along with [Cobalt 2 for ZSH](https://github.com/wesbos/Cobalt2-iterm/). I've got a whole free video series on this if you are interested:  <http://CommandLinePowerUser.com>
 
 ### Q: Can I make edits?
 **A:** Yes please! Still working on this. I might not accept your edits, but I probably will.
@@ -33,9 +33,9 @@
 
 🔥 [Cobalt2 for Atom](https://github.com/wesbos/cobalt2-atom)
 
-🔥 [Cobalt 2 for ZSH](https://github.com/wesbosCobalt2-iterm/)
+🔥 [Cobalt 2 for ZSH](https://github.com/wesbos/Cobalt2-iterm/)
 
-🔥 [Cobalt 2 for iTerm](https://github.com/wesbosCobalt2-iterm/)
+🔥 [Cobalt 2 for iTerm](https://github.com/wesbos/Cobalt2-iterm/)
 
 🔥 [Cobalt 2 for Alfred](https://github.com/wesbos/Cobalt2-Alfred-Theme)
 
