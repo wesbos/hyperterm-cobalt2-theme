@@ -1,0 +1,15 @@
+{
+  "name": "hyperterm-cobalt2-theme",
+  "version": "1.0.0",
+  "description": "A Cobalt2 Theme for Hyperterm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+  "hyperterm",
+  "theme"
+  ],
+  "author": "Wes Bos",
+  "license": "ISC"
+}
