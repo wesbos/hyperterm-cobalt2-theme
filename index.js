@@ -25,7 +25,7 @@ const highlightBlue = '#1F4662';
 exports.decorateConfig = (config) => {
   return Object.assign({}, config, {
     cursorColor: yellow,
-    foregroundColor: yellow,
+    foregroundColor: white,
     backgroundColor: cobalt2blue,
     borderColor: 'rgba(255,255,255,0.05)',
     css: `
