@@ -1,12 +1,12 @@
 # Cobalt2 for Hyperterm
 
-![](http://wes.io/h1eC/content)
+![](http://d.pr/i/fLuj.jpg)
 
 ## Installing
 
 1. Open your `~/.hyperterm.js` config file with something like `subl ~/.hyperterm.js` or `vim ~/.hyperterm.js`.
 2. Add `hyperterm-cobalt2-theme` to your `plugins` array. Kinda like this:
-	
+
 	```js
 	plugins: [
 	  'hyperterm-cobalt2-theme'
