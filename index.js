@@ -29,14 +29,9 @@ exports.decorateConfig = (config) => Object.assign({}, config, {
   borderColor: 'rgba(255,255,255,0.05)',
   css: `
     ${config.css || ''}
-    .tab_tab:before {
-      border-left: 1px solid;
-    }
     .tab_active {
-      background: rgba(255,255,255,0.05);
-    }
-    .tab_active:before {
-      border-color: ${yellow};
+      background-color: rgba(255, 255, 255, 0.05);
+      border-bottom: 1px solid ${yellow} !important;
     }
   `,
   colors: {
