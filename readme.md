@@ -4,7 +4,7 @@
 
 ## Installing
 
-1. Open your `~/.hyperterm.js` config file with something like `subl ~/.hyperterm.js` or `vim ~/.hyperterm.js`.
+1. Open your `~/.hyper.js` config file with something like `subl ~/.hyper.js` or `vim ~/.hyper.js`.
 2. Add `hyperterm-cobalt2-theme` to your `plugins` array. Kinda like this:
 
 	```js
@@ -48,4 +48,3 @@ fontFamily: '"Operator Mono", "Inconsolata for Powerline", monospace'
 🔥 [Cobalt 2 for Alfred](https://github.com/wesbos/Cobalt2-Alfred-Theme)
 
 🔥 [Cobalt 2 for Slack](https://github.com/wesbos/Cobalt2-slack)
-
