@@ -4,12 +4,22 @@
   "description": "A Cobalt2 Theme for Hyperterm",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node utils/test.js",
+    "prepare": "node utils/build.js"
   },
   "keywords": [
-  "hyperterm",
-  "theme"
+    "hyperterm",
+    "theme"
   ],
   "author": "Wes Bos",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.16.2",
+    "cli-color": "^1.2.0",
+    "express": "github:expressjs/express",
+    "fs-extra": "^4.0.2",
+    "json5": "^0.5.1",
+    "lodash.mapkeys": "^4.6.0",
+    "lodash.pickby": "^4.6.0"
+  }
 }
