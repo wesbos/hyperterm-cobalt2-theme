@@ -8,14 +8,16 @@ const COLORS_URL = 'https://raw.githubusercontent.com/wesbos/cobalt2-vscode/mast
 
 (async function() {
   try {
-    const { data } = await axios(COLORS_URL);
-    const { colors } = json5.parse(data);
+    // fetch colors from cobalt2-vscode on GitHub
+    let { data } = await axios(COLORS_URL);
+    let { colors } = json5.parse(data);
     
-    let terminalColors = pickBy(colors, (colorValue, colorKey) => {
-      return colorKey.startsWith('terminal.');
+    // filter out non-relevant keys
+    colors = pickBy(colors, (colorValue, colorKey) => {
+      return colorKey.startsWith('terminal.') && colorKey.includes('ansi');
     });
   
-    terminalColors = mapKeys(terminalColors, (colorValue, colorKey) => {
+    colors = mapKeys(colors, (colorValue, colorKey) => {
       // remove color prefix
       colorKey = colorKey.replace('terminal.ansi', '');
       // de-camelcase first letter
@@ -25,7 +27,8 @@ const COLORS_URL = 'https://raw.githubusercontent.com/wesbos/cobalt2-vscode/mast
       return colorKey;
     });
   
-    await fs.writeJson('./ansi-colors.json', terminalColors);
+    // write colors to file as JSON
+    await fs.writeJson('./ansi-colors.json', colors, { spaces: 2 });
 
     console.log('Build success.');
   } catch (error) {
