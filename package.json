@@ -1,14 +1,15 @@
 {
   "name": "hyperterm-cobalt2-theme",
-  "version": "1.0.3",
-  "description": "A Cobalt2 Theme for Hyperterm",
+  "version": "2.0",
+  "description": "A Cobalt2 Theme for Hyper",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-  "hyperterm",
-  "theme"
+    "hyper",
+    "theme",
+    "color scheme"
   ],
   "author": "Wes Bos",
   "repository": {

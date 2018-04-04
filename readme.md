@@ -1,6 +1,6 @@
 # Cobalt2 for Hyper
 
-![](http://wes.io/qfOK/content)
+![](http://wes.io/qfNS/content)
 
 ## Installing
 
