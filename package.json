@@ -11,5 +11,9 @@
   "theme"
   ],
   "author": "Wes Bos",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesbos/hyperterm-cobalt2-theme.git"
+  },
   "license": "ISC"
 }
