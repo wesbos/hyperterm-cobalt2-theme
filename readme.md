@@ -1,6 +1,6 @@
-# Cobalt2 for Hyperterm
+# Cobalt2 for Hyper
 
-![](http://d.pr/i/fLuj.jpg)
+![](http://wes.io/qfOK/content)
 
 ## Installing
 
@@ -13,6 +13,18 @@
 	],
 	```
 3. Enjoy your life
+
+## Settings
+
+By default the editor comes with a border, you can turn it off, or change it's colour with these settings in your config file. `Hyper → Preferences`
+
+
+```js
+// omit or set true to show. set false to remove it
+wickedBorder: true,
+// change the colour here
+wickedBorderColor: '#ffc600',
+```
 
 ## FAQ
 
@@ -36,6 +48,8 @@ fontFamily: '"Operator Mono", "Inconsolata for Powerline", monospace'
 **A:** Yes please! Still working on this. I might not accept your edits, but I probably will.
 
 ## You might also like
+
+🔥 [Cobalt2 for VS Code](https://github.com/wesbos/cobalt2-vscode)
 
 🔥 [Cobalt2 for Sublime Text](https://github.com/wesbos/Cobalt2)
 
